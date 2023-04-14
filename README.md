@@ -15,3 +15,10 @@ Lastly, open up your ~/.xinitrc file, and add this line to the top:
 `exec Tiger-Window-Manager`
 
 You will then be able to run the window manager using `startx`.
+
+Todo:
+* Add wallpaper support to the window manager
+* Add a config file where the super key is defined
+* Open a terminal when super+enter is pressed
+* Add tiling functionality
+* Add window decorations and borders to the window
