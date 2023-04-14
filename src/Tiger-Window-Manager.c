@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    Display * dpy;
+    Display *dpy;
     XWindowAttributes attr;
     XButtonEvent start;
     XEvent ev;
