@@ -5,10 +5,14 @@ Dependencies:
 
 Install instructions:
 * Install the dependencies
-* `git clone https://github.com/Tiger-Desktop-Environment/Tiger-Window-Manager`
-* `cd Tiger-Window-Manager/src`
-* `make`
-Then, open up your ~/.xinitrc file, and add this line to the top:
+* Run the following commands:
+`git clone https://github.com/Tiger-Desktop-Environment/Tiger-Window-Manager`
+`cd Tiger-Window-Manager/src`
+`make`
+
+This will create an executable file in the src/ directory of the git folder.
+
+Lastly, open up your ~/.xinitrc file, and add this line to the top:
 `exec Tiger-Window-Manager/src/Tiger-Window-Manager`
 
 You will then be able to run the window manager using `startx`.
