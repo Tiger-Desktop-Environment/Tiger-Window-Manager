@@ -8,7 +8,7 @@ clean:
 	rm -f TigerWM
 
 install: TigerWM
-	rm /bin/TigerWM
+	rm -f /bin/TigerWM
 	cp TigerWM /bin
 
 uninstall:
