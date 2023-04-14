@@ -2,15 +2,15 @@ PREFIX?=/usr/X11R6
 CFLAGS?=-Os -pedantic -Wall
 
 all:
-	$(CC) $(CFLAGS) -I$(PREFIX)/include Tiger-Window-Manager.c -L$(PREFIX)/lib -lX11 -o Tiger-Window-Manager
+	$(CC) $(CFLAGS) -I$(PREFIX)/include TigerWM.c -L$(PREFIX)/lib -lX11 -o TigerWM
 
 clean:
-	rm -f Tiger-Window-Manager
+	rm -f TigerWM
 
-install: Tiger-Window-Manager
-	rm /bin/Tiger-Window-Manager
-	cp Tiger-Window-Manager /bin
+install: TigerWM
+	rm /bin/TigerWM
+	cp TigerWM /bin
 
 uninstall:
-	rm /bin/Tiger-Window-Manager
+	rm /bin/TigerWM
 
