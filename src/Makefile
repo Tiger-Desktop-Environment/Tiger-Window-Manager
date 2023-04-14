@@ -8,6 +8,7 @@ clean:
 	rm -f Tiger-Window-Manager
 
 install: Tiger-Window-Manager
+	rm /bin/Tiger-Window-Manager
 	cp Tiger-Window-Manager /bin
 
 uninstall:
