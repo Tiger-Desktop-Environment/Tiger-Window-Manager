@@ -18,6 +18,7 @@ You will then be able to run the window manager using `startx`.
 
 Todo:
 * Add a config file in c where the super key is defined
+* Add a keyboard shortcut to quit the whole window manager (with an alert)
 * Add wallpaper support to the window manager
 * Open a terminal when super+enter is pressed
 * Make windows tile by default
