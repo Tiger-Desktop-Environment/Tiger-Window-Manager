@@ -1,6 +1,6 @@
 #include <X11/Xlib.h>
 #include <stdio.h>
-#include "TigerWMConfig.h"
+#include "TigerWMConfig.c"
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
