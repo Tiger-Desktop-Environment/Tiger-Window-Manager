@@ -15,14 +15,3 @@ Lastly, open up your ~/.xinitrc file, and add this line to the top:
 `exec Tiger-Window-Manager`
 
 You will then be able to run the window manager using `startx`.
-
-Todo:
-* Add a keyboard shortcut to quit the whole window manager (with an alert)
-* Add wallpaper support to the window manager
-* Open a terminal when MOD+enter is pressed
-* Make windows tile by default
-* Allow a keyboard shortcut to change how the tiling works 
-* Allow windows to be floating
-* Implement full screen mode (stage manager)
-* Allow it to work even if window bars are disabled in the config file
-* Add window decorations and borders to the window
