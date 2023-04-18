@@ -17,7 +17,6 @@ Lastly, open up your ~/.xinitrc file, and add this line to the top:
 You will then be able to run the window manager using `startx`.
 
 Todo:
-* Add a config file in c where the modifier key is defined
 * Add a keyboard shortcut to quit the whole window manager (with an alert)
 * Add wallpaper support to the window manager
 * Open a terminal when MOD+enter is pressed
