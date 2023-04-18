@@ -20,7 +20,7 @@ Todo:
 * Add a config file in c where the modifier key is defined
 * Add a keyboard shortcut to quit the whole window manager (with an alert)
 * Add wallpaper support to the window manager
-* Open a terminal when super+enter is pressed
+* Open a terminal when MOD+enter is pressed
 * Make windows tile by default
 * Allow windows to be floating
 * Implement full screen mode (stage manager)
