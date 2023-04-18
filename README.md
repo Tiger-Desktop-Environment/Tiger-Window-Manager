@@ -20,5 +20,8 @@ Todo:
 * Add a config file in c where the super key is defined
 * Add wallpaper support to the window manager
 * Open a terminal when super+enter is pressed
-* Add tiling functionality
+* Make windows tile by default
+* Allow windows to be floating
+* Implement full screen mode (stage manager)
+* Allow it to work even if window bars are disabled in the config file
 * Add window decorations and borders to the window
