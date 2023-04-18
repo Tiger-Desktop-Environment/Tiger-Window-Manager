@@ -22,6 +22,7 @@ Todo:
 * Add wallpaper support to the window manager
 * Open a terminal when MOD+enter is pressed
 * Make windows tile by default
+* Allow a keyboard shortcut to change how the tiling works 
 * Allow windows to be floating
 * Implement full screen mode (stage manager)
 * Allow it to work even if window bars are disabled in the config file
